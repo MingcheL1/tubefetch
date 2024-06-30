@@ -11,7 +11,7 @@ import readline from 'readline';
 const sleep=(ms=2000)=>new Promise((r)=>setTimeout(r,ms));
 const youtube = google.youtube({
     version: 'v3',
-    auth: 'AIzaSyD4udxLBIDXbfVGfmeGSUjvZqDnlHH-jLc',
+    auth: '',
   });
   
   const rl = readline.createInterface({
